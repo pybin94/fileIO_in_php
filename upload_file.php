@@ -13,8 +13,8 @@
 </form>
 
 <script>
-    const exchangeBtn = document.querySelector("#exchangeBtn")
-    exchangeBtn.addEventListener("click", function(){
+    const saveBtn = document.querySelector("#saveBtn")
+    saveBtn.addEventListener("click", function(){
 
         const img1 = document.querySelector("#img1")
         const img2 = document.querySelector("#img2")
