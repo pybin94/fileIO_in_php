@@ -18,7 +18,8 @@ if(!$name_1) {
 move_uploaded_file($tmp_id, "../../data/file/exchange/".$name_1);
 move_uploaded_file($tmp_bank, "../../data/file/exchange/".$name_2);
 
-sql_query("INSERT INTO `[table]` (`[column1]`, `[column2]`, `[...]`) VALUES ('{$name_1}', '{$name_2}', '[...]');");
+// mysql
+// INSERT INTO `[table]` (`[column1]`, `[column2]`, `[...]`) VALUES ('{$name_1}', '{$name_2}', '[...]')
 
 // 저장 완료되면 이전 페이지 이동
 header( 'Location: /upload_file.php' );
