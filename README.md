@@ -13,4 +13,4 @@ o : other (사용자)<br>
 x : exec (명령어 실행)<br>
 
 확장자명 제한 정규식 <br>
-/(.*?)\.(jpg|jpeg|png|gif|bmp|JPG|JPEG|PNG|GIF|BMP)$/
+/(.*?)\.(jpg|[확장자명1]|[확장자명2])$/
