@@ -23,3 +23,5 @@ move_uploaded_file($tmp_bank, "../../data/file/exchange/".$name_2);
 
 // 저장 완료되면 이전 페이지 이동
 header( 'Location: /upload_file.php' );
+
+?>
